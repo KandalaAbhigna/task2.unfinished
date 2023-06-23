@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #boxContainer{
+    height:800px;
+    width: 1200px;
+ 
+    display: inline-block;
+    border:2x solid;
+    /* grid-template-columns: repeat(var(--cols), 1fr);
+    grid-template-rows: repeat(var(--rows), 1fr); 
+     */
+
+  }
+  
+  .box {
+    background-color: #6918a7f8;
+    border: 2px solid #a17ef3;
+    box-sizing: border-box;
+  }
+  
+  .square {
+    aspect-ratio: 1/1;
+  }
+  
+  .rectangle {
+    aspect-ratio: 2/1;
+  }
+  
+  .equilateralTriangle {
+    --a: 20em;
+  border-bottom: calc(0.866 * var(--a)) solid #64ffcb;
+  border-left: calc(var(--a) / 2) solid transparent;
+  border-right: calc(var(--a) / 2) solid transparent;
+  /* transform: translateY(calc(-1 * 0.2887 * var(--border-bottom) * 0.5)); */
+ 
+  }
+  
+  .circle {
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  }
