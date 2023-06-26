@@ -1,3 +1,8 @@
+
+	html, body {
+    height: 100%;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -16,7 +21,7 @@ body {
   }
   
   .box {
-    background-color: #6918a7f8;
+    /*background-color: #6918a7f8;*/
     border: 2px solid #a17ef3;
     box-sizing: border-box;
   }
